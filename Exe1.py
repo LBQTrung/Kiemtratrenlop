@@ -1,5 +1,5 @@
 newstring = input("Enter the string: ")
 newfile = input("Enter the name of file: ")
-file1 = open(newfile, 'w')
-file1.write(newstring)
-file1.close()
+file2 = open(newfile, 'w')
+file2.write(newstring)
+file2.close()
